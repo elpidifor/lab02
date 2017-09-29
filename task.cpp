@@ -16,21 +16,21 @@ int main() {
     }
 
     //только одно из чисел X и Y меньше 20;
-    if (!((x<20) || (y<20))){
+    if (!((x < 20) || (y < 20))){
         std::cout << "TRUE" << std::endl;
     }else{
         std::cout << "FALSE" << std::endl;
     }
 
     //хотя бы одно из чисел X и Y равно нулю;
-    if ((x==0) || (y==0)){
+    if ((x == 0) || (y == 0)){
         std::cout << "TRUE" << std::endl;
     }else{
         std::cout << "FALSE" << std::endl;
     }
 
     //каждое из чисел X, Y, Z отрицательное;
-    if ((x<0) && (y<0) && (z<0)){
+    if ((x < 0) && (y < 0) && (z < 0)){
         std::cout << "TRUE" << std::endl;
     }else{
         std::cout << "FALSE" << std::endl;
@@ -44,7 +44,7 @@ int main() {
     }
 
     //хотя бы одно из чисел X, Y, Z больше 100
-    if ((x>100) || (y>100) || (z>100)){
+    if ((x > 100) || (y > 100) || (z > 100)){
         std::cout << "TRUE" << std::endl;
     }else{
         std::cout << "FALSE" << std::endl;
