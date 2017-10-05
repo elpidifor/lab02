@@ -16,7 +16,7 @@ int main() {
     }
 
     //только одно из чисел X и Y меньше 20;
-    if (((x < 20) && (y >= 20)) || ((x >= 20) && (y < 20)){
+    if (((x < 20) && (y >= 20)) || ((x >= 20) && (y < 20))){
         std::cout << "TRUE one of numbers < 20" << std::endl;
     }else{
         std::cout << "FALSE" << std::endl;
