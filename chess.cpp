@@ -46,7 +46,8 @@ int main() {
     //Записать условие, при котором она может одним ходом попасть на поле (c, d):
     // 1)при обычном ходе;
     // 2)когда она "бьет" фигуру или пешку соперника.
-    if ((ab.first == cd.first) && (((ab.second == 2) && (cd.second == 4)) || !(cd.second - ab.second - 1))){
+    if ((ab.first == cd.first) && (((ab.second == 2) && (cd.second == 4))
+                                   || !(cd.second - ab.second - 1))){
         std::cout << "pawn moves" << std::endl;
     }else{
         std::cout << "pawn not moves" << std::endl;
