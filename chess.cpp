@@ -31,7 +31,7 @@ int main() {
         std::cout << "king not walks" << std::endl;
     }
 
-    //На поле (a, b) расположен ферзь.
+    //На поле (a, b) расположен ферзь
     //Записать условие, при котором он угрожает полю (c, d).
     if (((ab.first == cd.first) || (ab.second == cd.second)) ||
         ((ab.first - ab.second) == (cd.first - cd.second)){
