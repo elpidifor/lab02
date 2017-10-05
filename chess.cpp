@@ -31,18 +31,19 @@ int main() {
         std::cout << "king not walks" << std::endl;
     }
 
-    //На поле (a, b) расположен ферзь. 
+    //На поле (a, b) расположен ферзь.
     //Записать условие, при котором он угрожает полю (c, d).
-    if (((ab.first == cd.first) || (ab.second == cd.second)) || ((ab.first - ab.second) == (cd.first - cd.second)){
+    if (((ab.first == cd.first) || (ab.second == cd.second)) ||
+        ((ab.first - ab.second) == (cd.first - cd.second)){
         std::cout << "queen threatens" << std::endl;
     }else{
         std::cout << "queen not threatens" << std::endl;
     }
 
-    //На поле (a, b) расположена белая пешка. 
+    //На поле (a, b) расположена белая пешка.
     //Записать условие, при котором она может одним ходом попасть на поле (c, d):
-    //1)при обычном ходе;
-    //2)когда она "бьет" фигуру или пешку соперника.
+    // 1)при обычном ходе;
+    // 2)когда она "бьет" фигуру или пешку соперника.
 
     return 0;
 }
