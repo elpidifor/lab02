@@ -17,7 +17,7 @@ int main() {
     }
 
     //На поле (a, b) расположен слон. Записать условие, при котором он угрожает полю (c, d).
-    if ((ab.first - ab.second) == (cd.first - cd.second)){
+    if (((ab.first - ab.second) == (cd.first - cd.second)) || ((ab.first + ab.second) == (cd.first + cd.second))){
         std::cout << "elephant threatens" << std::endl;
     }else{
         std::cout << "elephant not threatens" << std::endl;
@@ -33,8 +33,8 @@ int main() {
 
     //На поле (a, b) расположен ферзь
     //Записать условие, при котором он угрожает полю (c, d).
-    if (((ab.first == cd.first) || (ab.second == cd.second)) ||
-        ((ab.first - ab.second) == (cd.first - cd.second)){
+    if ((ab.first == cd.first) || (ab.second == cd.second) || ((ab.first - ab.second) == (cd.first - cd.second))
+        || ((ab.first + ab.second) == (cd.first + cd.second))){
         std::cout << "queen threatens" << std::endl;
     }else{
         std::cout << "queen not threatens" << std::endl;
